@@ -1,0 +1,45 @@
+*.jar
+*.exe
+*.class
+*.cache
+*.log
+*.zip
+*.xls
+*.xlsx
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+## JetBrain
+# File-based project format
+*.ipr
+*.iml
+*.iws
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/misc.xml
+.idea/scala_compiler.xml
+
+# Plugins
+.idea/qaplug_profiles.xml
+.idea/libraries/SBT*.xml
+out/
+.idea_modules/
